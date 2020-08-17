@@ -1,5 +1,4 @@
 package com.company;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -8,7 +7,9 @@ public class Main {
         triangle.b=4;
         triangle.c=5;
 
-        System.out.println("Aria: " +triangle.Arie());
+        String strDouble = String.format("%.2f", triangle.Arie());
+
+        System.out.println("Aria: " +strDouble);
         System.out.println("Perimetru: "+triangle.Perimetru());
     }
 }
